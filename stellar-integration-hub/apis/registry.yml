@@ -1,0 +1,21 @@
+apis:
+  - name: "Stripe"
+    category: "Payments"
+    docs: "https://docs.stripe.com/api"
+    openapi: "https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json"
+    auth: ["api_key", "oauth2"]
+    sandbox: true
+    tags: ["fiat-onramp","webhook","checkout"]
+  - name: "Twilio"
+    category: "Comms"
+    docs: "https://www.twilio.com/docs"
+    openapi: "https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/json/twilio_api_v2010.json"
+    auth: ["api_key"]
+    sandbox: true
+    tags: ["sms","voice","webhook"]
+  - name: "Rates (SEP-38)"
+    category: "Stellar/Anchors"
+    docs: "https://developers.stellar.org/platforms/anchor-platform/2.8/api-reference/callbacks/get-rates"
+    auth: []
+    sandbox: true
+    tags: ["sep-31","quotes","fx"]
