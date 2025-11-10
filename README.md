@@ -157,5 +157,5 @@ MIT — Verifica que tienes derecho a compartir cualquier código o contenido qu
 
 ## 📬 Contacto
 
-- Mantenedores: `<@equipo o usuario>`
-- Colaboraciones/soporte: `<email o enlace>`
+- Mantenedores: `BAF`
+- Colaboraciones/soporte: `juanh@baf.network`
