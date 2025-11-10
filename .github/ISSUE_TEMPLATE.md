@@ -6,4 +6,4 @@
 **Enlaces**
 - Docs:
 - Sandbox:
-- OpenAPI (opcional):
+- OpenAPI:
