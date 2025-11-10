@@ -19,3 +19,11 @@ apis:
     auth: []
     sandbox: true
     tags: ["sep-31","quotes","fx"]
+    - name: "Abroad Finance"
+    category: "Payments/FX"
+    docs: "https://api.abroad.finance/docs/"
+    openapi: "https://api.abroad.finance/docs/openapi.json"  
+    auth: ["api_key"]
+    sandbox: true
+    tags: ["rates","payouts","remittances","webhook"]
+
