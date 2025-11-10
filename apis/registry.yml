@@ -22,7 +22,7 @@ apis:
     - name: "Abroad Finance"
     category: "Payments/FX"
     docs: "https://api.abroad.finance/docs/"
-    openapi: "https://api.abroad.finance/docs/openapi.json"   # si está accesible; si no, déjalo vacío
+    openapi: "https://api.abroad.finance/docs/openapi.json"  
     auth: ["api_key"]
     sandbox: true
     tags: ["rates","payouts","remittances","webhook"]
