@@ -15,12 +15,20 @@
 4. Reunir inspiración en un Hall of Fame y fomentar contribuciones por Pull Request.
 
 ---
+# Stellar Integration Hub (con soporte de billeteras)
 
+Este repositorio centraliza QuickStarts, integraciones (APIs), SEPs, herramientas **y ahora una sección de billeteras** para apps sobre Stellar.
+
+## Estructura
+```
+
+```
 ## 🧭 Estructura del repositorio
 
 ```
 /quickstarts/      # Guías cortas y neutrales (5–10 min)
 /apis/             # Fichas por servicio + registry.yml (catálogo de APIs)
+/wallets/          # Cómo integrar billeteras (Freighter, xBull, kits multi-wallet)
 /seps/             # Resúmenes prácticos de SEPs relevantes
 /tools/            # Tooling opcional (wallets, Horizon/RPC, devcontainers, scaffold, etc.)
 /examples/         # Demos mínimas + Hall of Fame (inspiración)
@@ -126,8 +134,8 @@ En `examples/README.md`, agrega proyectos o demos destacadas con:
 
 - **Valor de la integración:** caso de uso claro y medible.
 - **Robustez:** reintentos, idempotencia, validación de firmas en webhooks, timeouts y backoff.
-- **Seguridad:** autenticación adecuada, cumplimiento de SEPs cuando aplique.
-- **DX:** README claro, variables `.env` documentadas.
+- **Seguridad:** secretos fuera del repo, autenticación adecuada, cumplimiento de SEPs cuando aplique.
+- **DX:** README claro, configuración < 10 min, variables `.env` documentadas.
 - **Observabilidad:** logs suficientes para reproducir errores o auditoría mínima.
 
 ---
