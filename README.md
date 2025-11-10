@@ -19,10 +19,7 @@
 
 Este repositorio centraliza QuickStarts, integraciones (APIs), SEPs, herramientas **y ahora una sección de billeteras** para apps sobre Stellar.
 
-## Estructura
-```
 
-```
 ## 🧭 Estructura del repositorio
 
 ```
